@@ -1,7 +1,15 @@
 # code-server-python
 Code Server for Python
 
-## usage
+## usage with docker
+
+```bash
+docker run -it -p 8080:8080 danchitnis/code-server-python
+```
+
+## usage with docker compose
+
+first clone the repo
 
 ```bash
 docker compose up
