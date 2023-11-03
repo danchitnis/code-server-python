@@ -7,6 +7,8 @@ Code Server for Python
 docker run -it -p 8080:8080 danchitnis/code-server-python
 ```
 
+Then open a webpage and go to [http://localhost:8080](http://localhost:8080)
+
 ## usage with docker compose
 
 first clone the repo
