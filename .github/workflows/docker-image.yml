@@ -30,6 +30,7 @@ jobs:
         file: Dockerfile
         push: true
         tags: danchitnis/code-server-python:latest # Replace with your image tag
+        platforms: linux/amd64,linux/arm64 # Specify multiple platforms
 
     - name: Image Digest
       run: echo ${{ steps.build-and-push.outputs.digest }}
